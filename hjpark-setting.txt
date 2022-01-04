@@ -1,0 +1,49 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	ServerName www.hjpark.me 
+	ServerAlias hjpark.me
+
+#	DocumentRoot /var/www
+	DocumentRoot /home/www/homepage/hjpark
+#	ErrorDocument 404 /home/www/404.html
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride None
+		allow from none
+		deny from all
+	</Directory>
+	<Directory /home/www/homepage/hjpark>
+		Options FollowSymLinks MultiViews
+		AllowOverride All 
+		Order allow,deny
+		allow from all
+	</Directory>
+
+#	ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+#	<Directory /home/www/cgi-bin>
+#		AllowOverride None
+#		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+#		Order allow,deny
+#		Allow from all
+#		AddHandler cgi-script .py
+#		AddHandler default-handler .html .htm
+#	</Directory>
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    Alias /doc/ "/usr/share/doc/"
+    <Directory "/usr/share/doc/">
+        Options MultiViews FollowSymLinks
+        AllowOverride None
+        Order deny,allow
+        Deny from all
+        Allow from 127.0.0.0/255.0.0.0 ::1/128
+    </Directory>
+
+</VirtualHost>

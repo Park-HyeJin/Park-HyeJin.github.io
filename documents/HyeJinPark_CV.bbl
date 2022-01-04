@@ -1,0 +1,40 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{vacancy}
+\underline{\textbf{Park, H. J.}}, B.~J. Kim, H.-C. Jeong, C.~Hilbe, M.~Nowak,
+  Vacancies in a growing habitat and the evolution of cooperation, in
+  preparation.
+
+\bibitem{pdrep}
+\underline{\textbf{Park, H. J.}}, B.~J. Kim, H.-C. Jeong, Role of generosity
+  and forgiveness: Return to cooperative society, Phys. Rev. E 95 (2017)
+  042314.
+
+\bibitem{ld}
+\underline{\textbf{Park, H. J.}}, S.~D. Yi, D.~J. Kim, B.~J. Kim, Network of
+  likes and dislikes: Conflict and membership, Physica A 461 (2016) 647--654.
+
+\bibitem{meta}
+S.~K. Baek, \underline{\textbf{Park, H. J.}}, B.~J. Kim, Anomalous response in
+  the vicinity of spontaneous symmetry breaking, Eur. Phys. J. B 88 (2015) 127.
+
+\bibitem{sr}
+\underline{\textbf{Park, H. J.}}, S.~K. Baek, B.~J. Kim, Stochastic resonance
+  in the two-dimensional q-state clock models, Phys. Rev. E 89 (2014) 032137.
+
+\bibitem{rank}
+S.~K. Baek, I.~G. Yi, \underline{\textbf{Park, H. J.}}, B.~J. Kim, Statistics
+  of the knockout tournament, Scientific Reports 3 (2013) 3198.
+
+\bibitem{yut}
+\underline{\textbf{Park, H. J.}}, H.~Sim, H.-H. Jo, B.~J. Kim, Analysis of
+  one-dimensional yut-nori game: winning strategy and avalanche-size
+  distribution, J. Korean Phys. Soc. 63 (2013) 1497.
+
+\end{thebibliography}

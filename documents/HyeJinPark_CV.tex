@@ -1,0 +1,250 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{comment}
+\usepackage{etaremune}
+
+
+\bibliographystyle{elsarticle-num}
+\bibliographystyle{unsrt}
+
+% personal data
+\name{Hye Jin}{Park}
+\title{Curriculum Vitæ}                               % optional, remove / comment the line if not wanted
+\address{Statistical physics of ecology and evolution group,
+}{Asia Pacific Center for Theoretical Physics, Pohang, South Korea (37673)}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+82~(10)~9333~4089}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+82~054~279~1471}                    % optional, remove / comment the line if not wanted
+\email{phj.hyejin@gmail.com}                               % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+\extrainfo{Last update: \today}                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+\section{Research Experience}
+\cventry{2020.09.01--present}{Adjunct Professor}
+{Department of Physics, POSTECH}{Pohang, South Korea}{}{}
+
+
+\cventry{2020.04.01--present}{Junior Research Group Leader}
+{Asia Pacific Center for Theoretical Physics}{Pohang, South Korea}{}{}
+
+
+\cventry{2016.09.01--2020.03.31}{PostDoc}
+{Max-Planck Institute for Evolutionary Biology}{Pl\"on, Germany}{}{}
+
+\section{Education}
+\cventry{2011--2016}{Ph. D. in physics}{Sungkyunkwan University}{Suwon, South Korea}{}
+{Title: Statistical physics approach to social phenomena \\Advisor: Beom Jun Kim}  % arguments 3 to 6 can be left empty
+\cventry{2007--2011}{B. Sc. in Physics}{}{}{}{}
+
+
+
+\section{Research Subject}
+\cvlistitem{Ecological and evolutionary dynamics}
+\cvlistitem{Evolutionary game dynamics}
+\cvlistitem{Computational social science}
+\cvlistitem{Spin system}
+
+
+\section{Publications}
+\renewcommand{\labelenumi}{[\theenumi]} 
+\begin{etaremune}
+\item
+\underline{\textbf{Park, H. J.}}, B.~J. Kim, H.-C. Jeong, C.~Hilbe, and M.~Nowak, Vacancies in a growing habitat and the evolution of cooperation, in preparation.
+
+\item
+Y. Gao, \underline{\textbf{Park, H. J.}}, A. Traulsen, and Y. Pichugin, Evolution of irreversible somatic differentiation, eLife (2021), 2021;10:e66711.
+
+\item
+J. I. Park, B.~J. Kim, \underline{\textbf{Park, H. J.}}, Stochastic resonance of abundance fluctuations and mean time to extinction in an ecological community,  Phys. Rev. E 104 (2021) 024133.
+
+\item
+\underline{\textbf{Park, H. J.}}, C. S. Gokhale, and Frederic Bertels, How sequence populations persist inside bacterial genomes, Genetics, (2021), iyab027.
+
+\item
+C. S. Gokhale and \underline{\textbf{Park, H. J.}},
+Eco-evolutionary spatial dynamics of non-linear social dilemmas, Advances in Dynamic Games, (2020), 185-198.
+
+\item
+G. B. Ayan, \underline{\textbf{Park, H. J.}}, and J. Gallie, The birth of a bacterial tRNA gene by large-scale, tandem duplication events, eLife, (2020), 2020;9:e57947.
+
+\item
+\underline{\textbf{Park, H. J.}}, Y. Pichugin, and A. Traulsen, Why is cyclic dominance so rare?,  eLife, (2020),  2020;9:e57857.
+
+\item
+B. Wu, \underline{\textbf{Park, H. J.}}, L. Wu, D. Zhou,
+Evolution of cooperation driven by self-recommendation, Phys. Rev. E 100 (2019) 042303.
+  
+\item
+Y. Pichugin, \underline{\textbf{Park, H. J.}}, and A. Traulsen,
+Evolution of simple multicellular life cycles in dynamic environments, J. Royal Soc. Interface 16 (2019) 20190054.
+  
+\item
+\underline{\textbf{Park, H. J.}}, Y. Pichugin, W. Huang, and A. Traulsen,
+Population size changes and extinction risk of populations driven by mutant interactors, Phys. Rev. E 99 (2019) 022305.
+
+\item
+\underline{\textbf{Park, H. J.}} and C. S. Gokhale,
+Ecological feedback on diffusion dynamics, Royal Society Open Science 6 (2019) 181273.
+
+
+\item
+\underline{\textbf{Park, H. J.}}, W.~S. Jo, S.~H. Lee, and B.~J. Kim,
+Generalized Gravity Model for Human Migration, New J. Phys. 20 (2018) 093018.
+
+
+\item
+S.-G. Yang, \underline{\textbf{Park, H. J.}}, and B.~J. Kim,
+Dynamic critical behavior of the one-dimensional XY model with long-range interaction, Phys. Rev. E 98 (2018) 032120.
+
+
+\item
+\underline{\textbf{Park, H. J.}} and A. Traulsen,
+Extinction dynamics from meta-stable coexistences in an evolutionary game, 
+Phys. Rev. E 96 (2017) 042412.
+
+
+\item
+\underline{\textbf{Park, H. J.}}, B.~J. Kim, H.-C. Jeong, Role of generosity
+  and forgiveness: Return to cooperative society, Phys. Rev. E 95 (2017)
+  042314.
+
+\item
+\underline{\textbf{Park, H. J.}}, S.~D. Yi, D.~J. Kim, B.~J. Kim, Network of
+  likes and dislikes: Conflict and membership, Physica A 461 (2016) 647--654.
+
+\item
+S.~K. Baek, \underline{\textbf{Park, H. J.}}, B.~J. Kim, Anomalous response in
+  the vicinity of spontaneous symmetry breaking, Eur. Phys. J. B 88 (2015) 127.
+
+\item
+\underline{\textbf{Park, H. J.}}, S.~K. Baek, B.~J. Kim, Stochastic resonance
+  in the two-dimensional q-state clock models, Phys. Rev. E 89 (2014) 032137.
+
+\item
+S.~K. Baek, I.~G. Yi, \underline{\textbf{Park, H. J.}}, B.~J. Kim, Statistics
+  of the knockout tournament, Scientific Reports 3 (2013) 3198.
+
+\item
+\underline{\textbf{Park, H. J.}}, H.~Sim, H.-H. Jo, B.~J. Kim, Analysis of
+  one-dimensional yut-nori game: winning strategy and avalanche-size
+  distribution, J. Korean Phys. Soc. 63 (2013) 1497.
+
+\end{etaremune}
+
+\section{Honors}
+\cvitem{Awards}{Young Statistical Physicist Award from Korea Physics Society, Daejeon, Korea, 25 April 2018}
+\cvitem{Awards}{Best Poster Award from Statphys26, Lyon, France, 18-22 July 2016}
+\cvitem{Awards}{Best Presentation Award from Complexity Research and Education Network, Korea, 2013}
+\cvitem{Scholarships}{Lotte Scholarship (2011-2, 2012-1)}
+
+\section{Grants}
+\cvitem{2020 September-2023 February}{National Research Foundation of Korea(NRF) grant funded by the Korea government (MSIT).}
+
+\section{Organizing}
+\cvitem{2020 August}{Workshop \href{http://www.apctp.org/plan.php/MEE}{``Modeling on Ecology and Evolution"}, 
+APCTP, Pohang, Korea, August 24-26, 2020.}
+\cvitem{2020 June-Present}{Seminar series \href{http://hjpark.me/Seminar.html}{``Modeling on Ecology and Evolution"}, 
+APCTP, Pohang, Korea, June 2020-present.}
+\cvitem{2019 September}{Workshop \href{https://workshops.evolbio.mpg.de/event/15/overview}{``Evolution of interacting populations"}, 
+MPI for Evolutionary Biology, Pl\"{o}n, Germany, September 15-17, 2019.}
+\cvitem{2018-2020}{Internal meeting "Monthly Academia", MPI for Evolutionary Biology, Pl\"{o}n, Germany, October 2018-March 2020.}
+\cvitem{2017-2018}{Internal meeting "Statistical Physics study group", MPI for Evolutionary Biology, Pl\"{o}n, Germany, March 2017-February 2018.}
+\cvitem{2014 May-June}{Assistant organizer of public talks "Let's play with physics", Sungkyunkwan University, Suwon, South Korea, May-June 2014.}
+
+
+\section{Mentoring}
+%\cvitem{2020 May-Present}{Co-supervising master student in Sungkyunkwan University, Suwon, South Korea}
+%\cvitem{2020 January-2021 Feburary}{Co-supervising PhD student in Hanyang University, Ansan, South Korea}
+\cvitem{2019 May-August}{Co-supervising internship student in MPI for Evolutionary Biology, Pl\"{o}n, Germany}
+\cvitem{2017 July-September}{Co-supervising internship student in MPI for Evolutionary Biology, Pl\"{o}n, Germany}
+
+
+\section{Teaching}
+\cvitem{2021 September-December}{Computational science, POSTECH, South Korea}
+\cvitem{2013 September-December}{Statistical physics practice, Sungkyunkwan University, South Korea}
+\cvitem{2013 March-June}{Classical mechanics practice, Sungkyunkwan University, South Korea}
+\cvitem{2012 September-December}{Thermodynamics practice, Sungkyunkwan University, South Korea}
+
+
+\section{Invited Talks}
+\cvitem{2021 August 17-19}{"Artificial group selection on a simple model", Roles of heterogeneity in non-equilibrium collective dynamics (RHINO), Pohang, Korea.}%2021 Aug. 18
+\cvitem{2021 July 5-7}{"Emergence of cooperation", Biophysics School, virtual meeting, Korea.}%2021 July 5
+\cvitem{2021 June 23-25}{"Ecological communities from generalized Lotka-Volterra dynamics with random heterogeneous interactions", KIAS Workshop on Complex Systems and Data Science, KIAS, Seoul, Korea.}%2021 June. 25
+\cvitem{2021 June 13-17}{"Extinction dynamics from meta-stable coexistences in an evolutionary game", a mini-symposium "Evolutionary Game Theory under Uncertainty" at the 2021 Annual Meeting of the Society for Mathematical Biology, virtual meeting.}%2021 June. 13-17
+\cvitem{2021 April 7}{"How interactions shape ecological communities", colloquium at Physics Department, POSTECH, Pohang, Korea.}%2021 April. 7
+\cvitem{2021 March 1-3}{"Why cyclic dominance is so rare?", Eurasian summit for models of society, virtual meeting.}%2021 March. 2
+\cvitem{2021 February 23}{"Simple model on artificial group selection", colloquium at Division of Environmental Science \& Engineering, POSTECH, Pohang, Korea.}%2021 Feb. 23
+\cvitem{2020 November 25-27}{"Extinction dynamics from meta-stable coexistences in ecological systems", The 2nd workshop on stochasticity and fluctuations in small systems, Gyeongju, Korea.}%2020 Nov. 25-27
+\cvitem{2020 September 25}{"Evolving ecological communities", StatPhys Monthly Meeting, Korea.}%2020 Sept. 25
+\cvitem{2020 September 16}{"Eco-evolutionary dynamics with novel mutations", iTHEMS Biology Seminar.}%2020 Sept. 16
+\cvitem{2020 August}{"Why cyclic dominance is so rare?", RHINO 2020 workshop, Pohang, Korea.}%
+\cvitem{2019 December 3}{"Eco-evolutionary dynamics with novel mutation", Complex Systems seminar, Queen Mary University, UK.}%2019, December, 3
+\cvitem{2019 November 27-28}{"Eco-evolutionary dynamics with stochasticity and novel mutation",  Frontiers of Physics Symposium, Asia Pacific Center for Theoretical Physics (APCTP), Pohang, Korea.}%2019, November, 27-28
+\cvitem{2019 October 30}{"Generalized Gravity model for human migration: Marriage pattern in the past", Seminar talk, Xiamen University, Xiamen, China.}%2019, October 30
+\cvitem{2019 October}{"Marriage pattern in the past studied by generalized gravity model", Seminar talk, Gyeongnam National University of Science and Technology, Korea.}%2019, October 30
+%\cvitem{2017 April}{"Extinction dynamics from meta-stable coexistences", Seminar, Korea Institute for Advanced Study (KIAS), Seoul, Korea.}%, April 28, 2017
+\cvitem{2019 July 16-19}{"Extinction risk of populations driven by mutant interactors", 
+Mini symposium in Mathematical Models in Ecology and Evolution (MMEE), Lyon, France.}%2019, July 16-19
+\cvitem{2019 June 24-26}{"Role of generosity and forgiveness: Return to cooperative society", Workshop--Dynamics of Interdependent Decisions, Hanse-Wissenschaftskolleg, Germany.}% June 24-26, 2019
+\cvitem{2019 April 10-13}{"Population size and interaction structure driven by mutant interactors", 
+Interdisciplinary Challenges in Non-Equilibrium Physics workshop, The Higgs Centre for Theoretical Physics, University of Edinburgh, Scotland.}%April 10-13, 2019
+\cvitem{2018 May 7}{"Fate of populations in a stochastic system with mutations", Perspectives in Statistical Physics on Evolutionary Game Theory, 
+Pukyong National University  (PKNU), Busan, Korea}%May 7, 2018.Perspectives in Statistical Physics on Evolutionary Game Theory, 2018. 5. 6 ~ 7., PKNU, Busan
+\cvitem{2017 July 10-12}{"Ecological feedback on evolutionary spatial dynamics with social dilemmas",
+Mini symposium in Mathematical Models in Ecology and Evolution (MMEE), London, United Kingdom.} %, July 10-12, 2017
+\cvitem{2017 April 28}{"Extinction dynamics from meta-stable coexistences", Seminar talk,
+Korea Institute for Advanced Study (KIAS), Seoul, Korea.}%, April 28, 2017
+\cvitem{2016 May 10}{"Vacancies in a growing habitat and the evolution of cooperation",
+Department of Evolutionary Theory, Max Planck Institute for Evolutionary Biology, Pl\"on, Germany.}%May 10th, 2016
+\cvitem{2015 August 26}{"Vacancies in a growing habitat and the evolution of cooperation",
+Program for Evolutionary Dynamics, Harvard University, US.}%, August 26th, 2015
+
+
+
+
+
+\end{document}
+
+
+%% end of file `template.tex'.

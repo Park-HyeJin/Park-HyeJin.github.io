@@ -1,0 +1,304 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{comment}
+\usepackage{etaremune}
+
+
+\bibliographystyle{elsarticle-num}
+\bibliographystyle{unsrt}
+
+
+% personal data
+\name{Hye Jin}{Park}
+\title{Curriculum Vitæ}                               % optional, remove / comment the line if not wanted
+
+
+\address{Department of Evolutionary Theory}{Max-Planck Institute for Evolutionary Biology, Pl\"on, Germany (24306)}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+82~(10)~9333~4089}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+49~4522 763 535}                    % optional, remove / comment the line if not wanted
+\email{hjpark@evolbio.mpg.de}                               % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+\extrainfo{Last update: \today}                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+\section{Research Experience}
+\cventry{2016.09--present}{PostDoc}
+{Max-Planck Institute for Evolutionary Biology}{Pl\"on, Germany}{}{}
+
+\section{Education}
+\cventry{2011--2016}{Ph. D. in physics}{Sungkyunkwan University}{Suwon, Korea}{}
+{Title: Statistical physics approach to social phenomena \\Advisor: Beom Jun Kim}  % arguments 3 to 6 can be left empty
+\cventry{2007--2011}{B. Sc. in Physics }{}{}{}{}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+
+\section{Research Subject}
+\cvlistitem{Evolutionary game dynamics}
+\cvlistitem{Ecological and evolutionary dynamics}
+\cvlistitem{Computational social science}
+\cvlistitem{Spin system}
+%\cvlistdoubleitem{Game theory}{Computational social science}
+%\cvlistdoubleitem{Evolutionary dynamics}{Ecology system}
+%\cvlistdoubleitem{Network}{Spin system}
+%\cvlistitem{Networks}
+%\cvlistitem{Spin system}
+
+
+\section{Publications}
+\renewcommand{\labelenumi}{[\theenumi]} 
+\begin{etaremune}
+
+\item
+\underline{\textbf{Park, H. J.}}, B.~J. Kim, H.-C. Jeong, C.~Hilbe, and M.~Nowak,
+  Vacancies in a growing habitat and the evolution of cooperation, in preparation.
+
+
+\item
+C. S. Gokhale and \underline{\textbf{Park, H. J.}},
+Eco-evolutionary spatial dynamics of non-linear social dilemmas, submitted.
+  
+  
+\item
+Y. Pichugin, \underline{\textbf{Park, H. J.}}, and A. Traulsen,
+Evolution of simple multicellular life cycles in dynamic environments, submitted.
+  
+  
+
+\item
+\underline{\textbf{Park, H. J.}}, Y. Pichugin, W. Huang, and A. Traulsen,
+Population size changes and extinction risk of populations driven by mutant interactors, Phys. Rev. E 99 (2019) 022305.
+
+\item
+\underline{\textbf{Park, H. J.}} and C. S. Gokhale,
+Ecological feedback on diffusion dynamics, Royal Society Open Science 6 (2019) 181273.
+
+
+\item
+\underline{\textbf{Park, H. J.}}, W.~S. Jo, S.~H. Lee, and B.~J. Kim,
+Generalized Gravity Model for Human Migration, New J. Phys. 20 (2018) 093018.
+
+
+\item
+S.-G. Yang, \underline{\textbf{Park, H. J.}}, and B.~J. Kim,
+Dynamic critical behavior of the one-dimensional XY model with long-range interaction, Phys. Rev. E 98 (2018) 032120.
+
+
+\item
+\underline{\textbf{Park, H. J.}} and A. Traulsen,
+Extinction dynamics from meta-stable coexistences in an evolutionary game, 
+Phys. Rev. E 96 (2017) 042412.
+
+
+\item
+\underline{\textbf{Park, H. J.}}, B.~J. Kim, H.-C. Jeong, Role of generosity
+  and forgiveness: Return to cooperative society, Phys. Rev. E 95 (2017)
+  042314.
+
+\item
+\underline{\textbf{Park, H. J.}}, S.~D. Yi, D.~J. Kim, B.~J. Kim, Network of
+  likes and dislikes: Conflict and membership, Physica A 461 (2016) 647--654.
+
+\item
+S.~K. Baek, \underline{\textbf{Park, H. J.}}, B.~J. Kim, Anomalous response in
+  the vicinity of spontaneous symmetry breaking, Eur. Phys. J. B 88 (2015) 127.
+
+\item
+\underline{\textbf{Park, H. J.}}, S.~K. Baek, B.~J. Kim, Stochastic resonance
+  in the two-dimensional q-state clock models, Phys. Rev. E 89 (2014) 032137.
+
+\item
+S.~K. Baek, I.~G. Yi, \underline{\textbf{Park, H. J.}}, B.~J. Kim, Statistics
+  of the knockout tournament, Scientific Reports 3 (2013) 3198.
+
+\item
+\underline{\textbf{Park, H. J.}}, H.~Sim, H.-H. Jo, B.~J. Kim, Analysis of
+  one-dimensional yut-nori game: winning strategy and avalanche-size
+  distribution, J. Korean Phys. Soc. 63 (2013) 1497.
+
+\end{etaremune}
+
+
+
+\begin{comment}
+%\section{Research Subjects}
+%\textbf{Game theory}
+%\begin{itemize}%
+%\item Population growth and evolution of cooperation (Monte Carlo simulation in the lattice structure)
+%\item Population dynamics via master equation approach
+%\end{itemize}
+
+\textbf{Network}
+\begin{itemize}%
+\item Network partitioning using Potts model
+\item Measurements of network properties based on C++ programming and python
+\item Network construction from time-series data
+\end{itemize}
+
+\textbf{Spin system}
+\begin{itemize}%
+\item Stochastic response in q-state clock model under oscillating external field
+\end{itemize}
+
+\section{Skills}
+\cvitem{Programming language}{C, C++, python}
+\cvitem{Methodology}{Monte Carlo simulation, numerical calculation, social network analysis}
+\cvitem{Software tools}{Mathematica, Gephi, Pajek}
+\end{comment}
+
+%\section{Languages}
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+%\section{Interests}/
+%\cvitem{hobby 1}{Description}
+%\cvitem{hobby 2}{Description}
+%\cvitem{hobby 3}{Description}
+
+
+%\section{Research interest}
+%\textbf{Evolution of social norm}
+%\begin{itemize}%
+%\item Culture
+%\end{itemize}
+%\textbf{Co-evolving system}
+%\begin{itemize}%
+%\item
+%\end{itemize}
+%\textbf{Voter model with game theory}
+%\begin{itemize}%
+%\item
+%\end{itemize}
+
+
+
+
+\section{Honors}
+\cvitem{Awards}{Young Statistical Physicist Award from Korea Physics Society, Daejeon, Korea, 25 April 2018}
+\cvitem{Awards}{Best Poster Award from Statphys26, Lyon, France, 18-22 July 2016}
+\cvitem{Awards}{Best Presentation Award from Complexity Research and Education Network, Korea, 2013}
+\cvitem{Scholarships}{Lotte Scholarship (2011-2, 2012-1)}
+
+\subsection{Invited Talk}
+
+\cvlistitem{"Extinction risk of populations driven by mutant interactors", 
+Mini symposium in Mathematical Models in Ecology and Evolution (MMEE), Lyon, France, July 16-19, 2019.}
+\cvlistitem{"Population size and interaction structure driven by mutant interactors", 
+Interdisciplinary Challenges in Non-Equilibrium Physics workshop, The Higgs Centre for Theoretical Physics, University of Edinburgh, Scotland, April 10-13, 2019.}
+\cvlistitem{"Fate of populations in a stochastic system with mutations", 
+Pukyong National University  (PKNU), Busan, Korea, May 7, 2018.}
+\cvlistitem{"Ecological feedback on evolutionary spatial dynamics with social dilemmas",
+Mini symposium in Mathematical Models in Ecology and Evolution (MMEE), London, United Kingdom, July 10-12, 2017.}
+\cvlistitem{"Extinction dynamics from meta-stable coexistences",
+Korea Institute for Advanced Study (KIAS), Seoul, Korea, April 28, 2017.}
+\cvlistitem{"Vacancies in a growing habitat and the evolution of cooperation",
+Department of Evolutionary Theory, Max Planck Institute for Evolutionary Biology, Pl\"on, Germany, May 10th, 2016.}
+\cvlistitem{"Vacancies in a growing habitat and the evolution of cooperation",
+Program for Evolutionary Dynamics, Harvard University, US, August 26th, 2015.}
+
+
+\section{Activities}
+\subsection{Workshop}
+\cvlistitem{Organizing the workshop \href{https://workshops.evolbio.mpg.de/event/15/overview}{``Evolution of interacting populations"}, 
+MPI for Evolutionary Biology, Pl\"{o}n, Germany, September 15-17, 2019.}
+
+\subsection{Conferences }
+\cvlistitem{"Vacancies in a growing habitat and the evolution of cooperation",
+Workshop: Evolutionary models of structured populations, Pl\"{o}n, Germany, September 05-07, 2018.}
+\cvlistitem{"Fate of populations in a stochastic system with mutations",
+ECMTB, Lisbon, Portugal, July 23-27, 2018.}
+\cvlistitem{"Coevolution of populations and resource: resource feedback to public goods game",
+KPS, Daejeon, Korea, April 25-27, 2018.}
+\cvlistitem{"Evolution of carrying capacity induced from mutation and extinction of populations in a stochastic system",
+KPS, Daejeon, Korea, April 25-27, 2018.}
+\cvlistitem{"Evolution of carrying capacity and extinction of populations in a stochastic system",
+DPG, Berlin, Germany, March 12-16, 2018.}
+\cvlistitem{"Fate of populations: Carrying capacity changes induced from mutants in a stochastic system",
+BIFI 2018 Conference, Zaragoza, Spain, February 6-8, 2018.}
+\cvlistitem{"Extinction behavior from coexistence of two types",
+Korea Physics Society (KPS) spring meeting, Daejeon, Korea, April 19-21, 2017.}
+\cvlistitem{"Extinction properties in the coexistence two-species population induced by demographic fluctuation",
+DPG, Dresden, Germany, March 21, 2017.}
+\cvlistitem{"Emergence of cooperation: Growing habitat with empty sites",
+STATPHYS 26, Lyon, France, July 18, 2016.}
+\cvlistitem{"Configuration network constructed from two-dimensional Ising model",
+NetSci 2016, Seoul, Republic of Korea, June 1, 2016.}
+\cvlistitem{"Generosity enhances cooperation in reputation-based prisoner's dilemma game",
+Granada Seminar on computational and statistical physics,
+La Herradura, Granada, Spain, June 15-19, 2015}
+\cvlistitem{"Stochastic resonance in the 2-dimensional q-state clock model",
+25th International Conference on Statistical Physics of the International Union of Pure and Applied
+Physics (STATPHYS 25), Seoul, Republic of Korea, July 26, 2013.}
+
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
+%\renewcommand{\labelenumi}{{\theenumi}}
+%\nocite{*}
+%\renewcommand{\bibliographyitemlabel}{[\arabic{enumiv}]~}
+%\bibliographystyle{plain}
+%\bibliography{HyeJinPark_CV}                        % 'publications' is the name of a BibTeX file
+
+
+%\section{References}
+%\cventry{}{Department of Physics, Sungkyunkwan University}{Prof. Beom Jun Kim}{}{}{beomjun@skku.edu}
+%\cventry{}{Department of Physics, Sejong University}{Prof. Hyeong-Chai Jeong}{}{}{hcj@sejong.ac.kr}
+%\cventry{}{Department of Physics, Pukyong National University}{Prof. Seung Ki Baek}{}{}{seungki@pknu.ac.kr}
+
+\end{document}
+
+
+%% end of file `template.tex'.
