@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.28)  14 OCT 2021 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.28)  28 FEB 2022 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1071,21 +1071,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 63.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 65.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./HyeJinPark_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
 Package rerunfilecheck Info: File `HyeJinPark_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 8DA4738416F0FBB270A8F4A862066C0D;981.
 
@@ -1096,7 +1096,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  21073 strings out of 493013
  348230 string characters out of 6133343
- 423552 words of memory out of 5000000
+ 423551 words of memory out of 5000000
  24329 multiletter control sequences out of 15000+600000
  50701 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1109,10 +1109,10 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 live/2016/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/lm/lmsso10.pfb>
-Output written on HyeJinPark_CV.pdf (5 pages, 153546 bytes).
+Output written on HyeJinPark_CV.pdf (5 pages, 154774 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
  12881 words of extra memory for PDF output out of 14400 (max. 10000000)
 
